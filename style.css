@@ -1,0 +1,49 @@
+
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+		box-sizing: border-box;
+		background-color: tan;
+		height: 600px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+		box-sizing: border-box;
+
+
+}
+
+.navbar {
+	float: right;
+			box-sizing: border-box;
+			display: inline;
+			background-color:gray;
+			text-align: center;
+			padding: 10px;
+
+}
+
+.navbar text {
+	padding: 5px;
+}
+
+.name {
+	display: inline;
+  width: 20%; 
+
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-background {
+	background-color:gray;
+	padding: 10px;
+}
